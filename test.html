@@ -15,10 +15,10 @@
     <script src="./bower_components/rsvp/rsvp.min.js"></script>
     <script src="./lib/basket.js"></script>
     <script>
-        basket.clear();//清楚缓存对象
+        //每次修改css和js请修改版本号
+        basket.setVersion('v1.1')
         basket.require({url: 'test.js'});
         basket.require({url:'test.css'});
-
     </script>
 </head>
 <body>
