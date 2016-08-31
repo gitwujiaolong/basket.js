@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="render" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script src="./bower_components/rsvp/rsvp.min.js"></script>
+    <script src="./lib/basket.js"></script>
+    <script>
+        basket.clear();//清楚缓存对象
+        basket.require({url: 'test.js'});
+        basket.require({url:'test.css'});
+
+    </script>
+</head>
+<body>
+ <div>
+     哈哈哈哈
+ </div>
+</body>
+</html>
